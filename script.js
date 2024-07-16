@@ -1,4 +1,17 @@
 
+let blogBox = document.getElementsByClassName("description-box");
+for (let i = 0; i < blogBox.length; i++){
+    blogBox[i].style.display = "none";
+}
+function ShowBoxes(i){
+    if (blogBox[i].style.display === 'none') {
+        blogBox[i].style.display = 'block';
+
+    }else{
+        blogBox[i].style.display = "none";
+    }
+}
+
 let slideIndex = 0; //global variable
 showSlides();
 let dots = document.getElementsByClassName("dot");
