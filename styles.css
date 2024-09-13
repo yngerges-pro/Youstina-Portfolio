@@ -20,7 +20,7 @@ body{
     font-weight: bold;
     font-size: 30px; /*changes font size to 30px*/
     word-spacing: 50px; /*adds spaces between the words*/
-    background-color: #ffffff;
+    /* background-color: #ffffff; */
     display: flex; /*flex box that makes sure everything stays as a row despite change in screen size*/
     align-items: baseline; /*makes all the elements (words and circle) line up*/
     flex-direction: row; /*flex box that makes sure everything stays as a row despite change in screen size*/
@@ -31,22 +31,6 @@ body{
     /* text-align: center; */
 }
 
-.Title{
-    bottom: 20%;
-    left: 30%;
-    text-align:center;
-    display: flex;
-    justify-self: center;
-    margin-bottom: 100px;
-    /* padding-bottom: 500px; */
-    text-decoration:overline;
-    text-decoration-color: #FFDB59;
-    text-shadow: 2px 2px #7d7b7b;
-    color: #FFDB59;
-    font-size: 50px;
-    word-spacing: normal;
-   
-}
 
 .buttons {
     margin-right: 15px;
@@ -56,7 +40,7 @@ body{
 }
 
 .page {
-    margin-top: 50px;
+    margin-top: 100px;
     margin-bottom: auto;
 }
 .init{
@@ -81,18 +65,26 @@ h1{
 
 .intro{
     display: flex; /*added flex so the position stays the same despite on the change in screen size*/
-    column-gap: 10%;
+    column-gap: 33%;
     justify-content: center; /*puts contents of the intro class in the center*/
     columns: auto 2;
     font-family: 'Times New Roman', Times, serif;
     font-size: 150%;
     padding: 15%;
+
+    
     
 }
 
-.parallax-image{
-    padding: 0.5%;
+
+.White-Boxes{
+    background-color: #f2f2f2;
+    color:#000;
+    padding: 10%;
+    border-radius: 45%;
+    justify-content: center;
 }
+
 
 .GIF {
     width: 100%;
@@ -104,7 +96,7 @@ h1{
     background-repeat: no-repeat;
     height: 50px; 
     width: 50px; 
-    margin-left: 100px; /*places shape right 50px*/
+    margin-left: 5%; /*places shape right 50px*/
     margin-right: auto;
 }
 
@@ -112,10 +104,10 @@ h1{
     border-radius: 20%;
     position: relative;
     margin-top: 80px;
-    padding-top: 30px;
-    padding-bottom: auto;
-    padding-right: 35%;
-    padding-left:10%;
+    /* padding-top: 30px; */
+    margin-bottom: auto;
+    margin-right: 35%;
+    margin-left:10%;
     height: 300px;
     width:300px;
 }
@@ -127,6 +119,11 @@ hr {
 .intro .hello {
     margin-top: 150px; /*places class named hello lower*/
     margin-left: 100px;
+}
+
+.pro{
+    padding: 5%;
+    background-size:contain;
 }
 
 .flex-container {
